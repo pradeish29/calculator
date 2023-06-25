@@ -1,0 +1,79 @@
+*{
+    transition: 0.2s ease-in-out;
+}
+body{
+    box-sizing: border-box;
+    border: none;
+    background-color: #ecf0f3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+}
+.calc{
+    width: 400px;
+    background-color: #ecf0f3;
+    margin-left: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+    row-gap: 20px; 
+}     
+input{
+
+    grid-column: span 4;
+    height: 70px;
+    width: 85%;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 40px;
+    font-size: 50px;
+    text-align: right;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button{
+    margin:auto;
+    height: 75px;
+    width: 75px;
+    box-shadow: inset -5px -5px 12px #faf4f4,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    font-size: 30px;
+    border-radius: 50px;
+}
+.eq{
+    width: 185%;
+    background-color: #bbb7b7;
+    box-shadow: inset -5px -5px 12px #929090,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+.bo{
+    margin-bottom: 20%;
+}
+.calc:hover{
+    scale: 1.05;
+}
+button:hover{
+    scale: 1.15;
+}
+.eq:hover{
+    scale: 1.05;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: #fd6601;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
